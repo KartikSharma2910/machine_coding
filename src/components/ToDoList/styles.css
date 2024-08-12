@@ -1,0 +1,23 @@
+.input-container {
+  display: flex;
+  gap: 12px;
+}
+
+.input {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.add-button {
+  border: none;
+  border-radius: 10px;
+  background-color: cornsilk;
+  cursor: pointer;
+  padding: 10px 16px;
+}
+
+.delete {
+  cursor: pointer;
+}

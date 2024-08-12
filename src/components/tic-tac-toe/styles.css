@@ -1,0 +1,26 @@
+.head-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  font-size: 36px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reset {
+  border: none;
+  cursor: pointer;
+  background-color: antiquewhite;
+  padding: 8px 16px;
+}

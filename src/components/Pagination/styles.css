@@ -1,0 +1,37 @@
+.products {
+  display: grid;
+  align-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.products-single {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+}
+
+.pagination {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 30px;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.page-number {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+}

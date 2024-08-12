@@ -1,0 +1,55 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.adding-input {
+  display: flex;
+  margin-left: 10px;
+  gap: 12px;
+}
+
+.comment {
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #e6e6e6;
+  border: 1px solid #858585;
+}
+
+.nested-comment {
+  border-left: 1px solid black;
+  margin-left: 5%;
+}
+
+.single-comment-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.reply-button {
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: rgb(92, 170, 247);
+  width: 150px;
+}
+
+.reply-input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.reply {
+  border: none;
+  color: white;
+  background-color: rgb(133, 183, 59);
+  padding: 10px 30px;
+  cursor: pointer;
+}
